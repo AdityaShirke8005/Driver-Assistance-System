@@ -11,7 +11,7 @@ Please note that the exact values for the ROI and the edge detection threshold w
 
 Note that this is a very basic example and there are many ways to improve the performance and accuracy of a blind spot monitoring system. You could use other object detection algorithm or combine it with other sensor information .
 
-                                                                     # INTEGRATION SCOPE
+                                           # INTEGRATION SCOPE
 
 **1) **Integrate the code into a larger driver assistance system:**** The above code can be integrated into a larger driver assistance system that includes other features such as lane detection, object detection, and collision avoidance. This can be done by adding the code to a larger script that also includes these other features, and running the script on a device such as a Raspberry Pi or an embedded system.
 
@@ -26,7 +26,7 @@ Note that this is a very basic example and there are many ways to improve the pe
 **6) Integrate with a mobile application:** The code can be integrated into a mobile application, which can be connected to the car's onboard computer via Bluetooth or Wi-Fi, to allow real-time monitoring of the blind spot using a smartphone or tablet.
 
                                        
-                                                                  # FUNCTIONS / PARAMETERS
+                                           # FUNCTIONS / PARAMETERS
 
 1) **cv2.VideoCapture(0):** This function creates a new object to access the default camera (usually the built-in webcam on a laptop). The argument '0' specifies which camera to use; if you have multiple cameras connected, you can use integers 1, 2, etc. to select different cameras.
 
