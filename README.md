@@ -11,6 +11,10 @@ Please note that the exact values for the ROI and the edge detection threshold w
 
 Note that this is a very basic example and there are many ways to improve the performance and accuracy of a blind spot monitoring system. You could use other object detection algorithm or combine it with other sensor information .
 
+### Expected Result
+
+![Demo](blindspot.gif)
+
                                            # INTEGRATION SCOPE
 
 **1) **Integrate the code into a larger driver assistance system:**** The above code can be integrated into a larger driver assistance system that includes other features such as lane detection, object detection, and collision avoidance. This can be done by adding the code to a larger script that also includes these other features, and running the script on a device such as a Raspberry Pi or an embedded system.
